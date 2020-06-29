@@ -14,21 +14,17 @@ body {
       font-family: 'Anonymous Pro', monospace;
       background-color: rgb(25, 25, 25);
 }
-.line{
-      position: relative;
-      top: 5%;
-}
 
 .line p{
+      position: relative;
       width: 31em;
       margin: 0 auto;
       border-right: 2px solid rgba(255, 255, 255, 0.75);
       font-size: 180%;
-      /*text-align: center;*/
       white-space: nowrap;
       overflow: hidden;
-      -webkit-animation: type 15s steps(40, end); 
-      animation: type 15s steps(40, end);
+      -webkit-animation: type 15s steps(50, end);
+      animation: type 15s steps(50, end);
       -webkit-animation-fill-mode: forwards;
       animation-fill-mode: forwards;
 }
