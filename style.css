@@ -1,0 +1,152 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html {
+      min-height: 100%;
+      overflow: hidden;
+}
+
+body {
+      height: calc(100vh - 8em);
+      padding: 15em;
+      color: rgba(255, 255, 255, 0.75);
+      font-family: 'Anonymous Pro', monospace;
+      background-color: rgb(25, 25, 25);
+}
+.line{
+      position: relative;
+      top: 5%;
+}
+
+.line p{
+      width: 31em;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      font-size: 180%;
+      /*text-align: center;*/
+      white-space: nowrap;
+      overflow: hidden;
+      -webkit-animation: type 15s steps(40, end); 
+      animation: type 15s steps(40, end);
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+}
+
+.line p:nth-child(2) {
+      white-space: nowrap;
+      overflow: hidden;
+      width: 27em;
+      opacity: 0;
+      -webkit-animation: type2 15s steps(40, end);
+      animation: type2 15s steps(40, end);
+      -webkit-animation-delay: 15s;
+      animation-delay: 15s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+
+.line p:nth-child(3) {
+      white-space: nowrap;
+      overflow: hidden;
+      width: 26em;
+      opacity: 0;
+      -webkit-animation: type3 15s steps(40, end);
+      animation: type3 15s steps(40, end);
+      -webkit-animation-delay: 30s;
+      animation-delay: 30s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+}
+
+.line p:nth-child(4) {
+      white-space: nowrap;
+      overflow: hidden;
+      width: 23em;
+      opacity: 0;
+      -webkit-animation: type4 15s steps(40, end);
+      animation: type4 15s steps(40, end);
+      -webkit-animation-delay: 45s;
+      animation-delay: 45s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+}
+
+@keyframes type {
+      from {
+            width: 0;
+      }
+}
+
+@keyframes type2 {
+      from {
+            width: 0;
+      }
+}
+
+@keyframes type3 {
+      from {
+            width: 0;
+      }
+}
+
+@keyframes type4 {
+      from {
+            width: 0;
+      }
+}
+
+@keyframes type2 {
+      0% {
+        width: 0;
+      }
+      from {
+        opacity: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      to {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+}
+
+@keyframes type3 {
+      0% {
+        width: 0;
+      }
+      from {
+        opacity: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      to {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+}
+
+@keyframes type4 {
+      0% {
+        width: 0;
+      }
+      from {
+        opacity: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      to {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+}
+
